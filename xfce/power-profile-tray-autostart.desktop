@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=msi-power-profile tray
+Comment=Start the power-profile tray indicator on login (XFCE)
+Exec=/usr/local/bin/power-profile-tray-autostart
+OnlyShowIn=XFCE;
+X-XFCE-Autostart-enabled=true
+NoDisplay=true

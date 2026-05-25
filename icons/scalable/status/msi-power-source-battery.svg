@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- msi-power-profile: power source on battery (horizontal battery shape) -->
+<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22">
+  <!-- battery body -->
+  <rect x="2" y="7" width="16" height="9" rx="1.2"
+        fill="none" stroke="#37474F" stroke-width="1.5"/>
+  <!-- terminal -->
+  <rect x="18" y="9.5" width="2" height="4" rx="0.6"
+        fill="#37474F"/>
+  <!-- charge fill -->
+  <rect x="3.5" y="8.5" width="11" height="6" rx="0.4"
+        fill="#43A047"/>
+</svg>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- msi-power-profile: power source AC (lightning bolt, electric yellow) -->
+<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22">
+  <path d="M 13 1 L 4 13 L 10 13 L 8 21 L 18 9 L 12 9 Z"
+        fill="#FBC02D" stroke="#F57F17" stroke-width="0.6"
+        stroke-linejoin="round"/>
+</svg>

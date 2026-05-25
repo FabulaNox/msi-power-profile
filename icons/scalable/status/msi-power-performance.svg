@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- msi-power-profile: Performance (gauge with needle, green) -->
+<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22">
+  <path d="M 2 17 A 9 9 0 0 1 20 17"
+        fill="none" stroke="#7CB342" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="11" y1="17" x2="17" y2="7"
+        stroke="#33691E" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="11" cy="17" r="1.8" fill="#33691E"/>
+</svg>

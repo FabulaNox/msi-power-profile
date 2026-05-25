@@ -1,0 +1,13 @@
+[Unit]
+Description=Power profile monitor (AC transitions, battery, thermal)
+After=multi-user.target msi-ec.service
+Wants=msi-ec.service
+
+[Service]
+Type=simple
+ExecStart=/usr/local/bin/power-profile-monitor
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,5 @@
+# Fires after TLP's own rule (85-tlp.rules) on AC/BAT transitions.
+# Decoupled via systemd-run so the udev event isn't held open by the script.
+# Install: /etc/udev/rules.d/99-power-source-hook.rules (root:root, 0644)
+
+SUBSYSTEM=="power_supply", KERNEL=="ADP1", ACTION=="change", RUN+="/usr/bin/systemd-run --no-block /usr/local/bin/power-source-hook"
